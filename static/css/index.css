@@ -1,0 +1,53 @@
+body {
+  background-color: #f349f3;
+}
+
+.jumbo {
+  padding: 10px;
+  font-size: 40px;
+}
+
+div.tech, div.d3-block, div.content, div.main {
+  width: 95%;
+  margin: auto;
+  border-radius: 20px;
+}
+
+div.main {
+  background-color: #fefefe;
+}
+
+div.content {
+  position: relative;
+  background-image: url("/static/images/nature.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+div.content div.overlay {
+  background-color: #000;
+  opacity: 0.7;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  border-radius: inherit;
+  position: absolute;
+}
+div.content div.rounded {
+  border-radius: 50px;
+  z-index: 1001;
+}
+
+span.author {
+  float: right;
+}
+
+div.d3-block {
+  background-color: #fefefe;
+}
+
+div.tech {
+  background-color: #fefefe;
+}
+
+/*# sourceMappingURL=index.css.map */

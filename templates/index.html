@@ -1,0 +1,42 @@
+{% extends 'layout.html' %}
+
+{% block title %}
+    Modern
+{% endblock %}
+
+{% block main %}
+    <!-- main block -->
+    <div class="main p-4 mt-4">
+        <h2>Introduction</h2>
+
+        <p>
+            This is an example website, "Modern".<br>
+            This uses some famous CSS and JavaScript Libraries.<br>
+            I have made this to implement all the front-end knowledge I have gained.<br>
+            It is made with simplicity in mind, and user attraction.<br>
+            I hope you will enjoy this.<br>
+        </p>
+    </div>
+
+    <!-- Content Block -->
+    <div class="content row p-2 mt-4">
+        <div class="overlay"></div>
+    </div>
+
+    <!-- D3 Block -->
+    <div class="d3-block mt-4 p-4">
+        <h3>Made with D3</h3>
+        <svg></svg>
+    </div>
+
+    <!-- Tech Block -->
+    <div class="tech mt-4 mb-4 p-4">
+        <h3>Technologies used</h3>
+        <button class="btn btn-sm btn-secondary" onclick="loadLink('Bootstrap')">Bootstrap</button>
+        <button class="btn btn-sm btn-secondary" onclick="loadLink('D3')">D3</button>
+        <button class="btn btn-sm btn-secondary" onclick="loadLink('Handlebars')">Handlebars</button>
+        <button class="btn btn-sm btn-secondary" onclick="loadLink('Flask')">Flask</button>
+        <hr>
+        <div id="tech"></div>
+    </div>
+{% endblock %}
